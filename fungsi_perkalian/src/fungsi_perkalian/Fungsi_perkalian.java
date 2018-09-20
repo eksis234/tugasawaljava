@@ -10,7 +10,6 @@ public class Fungsi_perkalian {
         System.out.print("Bilangan 1: ");
         int nilai = masuk.nextInt();
         System.out.print("Bilangan 2: ");
-        
         int nilai2 = masuk.nextInt();
         System.out.println("perkalian tanpa looping = " +fungsiperkalian.perkalian(nilai, nilai2));
         System.out.println("perkalian dengan looping = " +fungsiperkalian.perkalian_looping(nilai, nilai2));
